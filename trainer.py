@@ -8,7 +8,7 @@ count = 0
 direction = 0
 pTime = 0
 
-cam = cv2.VideoCapture('Resources\workout.mp4')# change this to 1 or 2 if you want to use your webcam eg-cam = cv2.VideoCapture(0)
+cam = cv2.VideoCapture(1)# change this to 1 or 2 if you want to use your webcam eg-cam = cv2.VideoCapture(0)
 detector = pm.poseEstimation()
 
 while True:
