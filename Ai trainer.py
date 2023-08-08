@@ -8,7 +8,7 @@ count = 0
 direction = 0
 pTime = 0
 
-cam = cv2.VideoCapture(1)
+cam = cv2.VideoCapture(0)
 detector = pm.poseEstimation()
 
 while True:
